@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(\App\Repositories\Interface\PrivatePropertiesRepositoryInterface::class, \App\Repositories\PrivatePropertiesRepositories::class);
     }
 
     /**

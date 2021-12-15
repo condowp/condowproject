@@ -13,7 +13,9 @@ function credentials(){
 }
 
 function getData(){
-    $con = config();
+  echo "hello";
+  die();
+    // $con = credentials();
       $sql = "SELECT * FROM `private_properties___private_properties`";
       $result = $con->query($sql);
       
