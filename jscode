@@ -1,0 +1,57 @@
+<script>
+        // let postId
+        // console.log("javas called");
+        // fillTable();
+
+        // function fillTable()
+        // {
+        //     console.log("function called");
+        //     let id;
+        //     $(document).on('click', '.visibility-btn', function(e){
+        //         console.log("called")
+        //         e.preventDefault();
+        //         id = $(this).attr('data-id');
+        //         console.log(id)
+        //         let url = "{{ route('posts.visibilityupdate', ':id') }}";
+        //         url = url.replace(':id', id);
+        //         console.log("visibility click")
+        //         $.ajax({
+        //             url : url,
+        //             method: 'POST',
+        //             data: { id: id, '_token': '{{ csrf_token() }}' },
+        //             success: function (res) {
+        //                 console.log("success")
+        //                 location.reload();
+        //                 // toastr.success(res.success);
+        //             }, error : function (error) {
+        //                 console.log(error)
+        //                 // toastr.error(error.responseJSON.error);
+        //             }
+        //         });    
+        //     });
+        // }
+        
+        // function updateStatus(id)
+        // {
+        //     console.log(id)
+        //     statusVal = document.getElementById("s"+ id).value;
+        //     console.log(statusVal)
+        //     let url = "{{ route('posts.statusupdate', ['id' => ':id', 'status' => ':status']) }}";
+        //     url = url.replace(':id', id);
+        //     url = url.replace(':status', statusVal);
+        //     $.ajax({
+        //         url : url,
+        //         method: 'POST',
+        //         data: {'_token': '{{ csrf_token() }}' },
+        //         success: function (res) {
+        //             console.log(res)
+        //             console.log("success")
+        //             location.reload();                 
+        //         }, error : function (error) {
+        //             console.log(error)
+        //             // toastr.error(error.responseJSON.error);
+        //             // fillTable()
+        //         }
+        //     });
+        // }
+    </script>   
